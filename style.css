@@ -172,12 +172,14 @@ footer dl::after{
 }
 .line {
     margin-bottom: 100px;
-    border: none;
 }
 .line dt {
     margin-right: 65px;
 }
 
+.line::after {
+    background-color: #1e1e1e;
+}
 /* media */
 @media (min-width: 640px) {
 .wrapper-all {
